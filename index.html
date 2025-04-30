@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jj's Chicken Realm</title>
+  <link href="css/styles.css" rel="stylesheet" />
+  
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-left">
+        <img src="images/chicken_logo.png" alt="Logo">
+        <span>Jj's Chicken Realm</span>
+      </div>
+      <div class="header-right">
+        <a href="index.html" class="home-button">Home</a>
+      </div>
+    </header>
+
+    <div class="menu-section">
+      <h2>Menu</h2>
+      <div id="menu-items"></div>
+    </div>
+
+    <div class="cart-section">
+      <h3>Your Cart</h3>
+      <div id="cart">
+        <p>Your cart is empty.</p>
+      </div>
+    </div>
+
+    <div id="user-money-container">
+      <h3>Enter Your Money</h3>
+      <input type="number" id="user-money" placeholder="$0.00" />
+      <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <div class="transaction-history">
+      <h3>Transaction History</h3>
+      <div id="history-entries" class="history-entries"></div>
+    </div>
+  </div>
+<div>
+ 
+  <section class="receipt-section" id="receipt" style="display: none;">
+    <h3>🧾 Receipt</h3>
+    <div id="receipt-content"></div>
+  </section>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.js"></script>
+</body>
+</html>
